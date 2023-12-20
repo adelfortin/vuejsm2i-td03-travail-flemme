@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <nav>
+      <router-link to="/" :class="{'nav-link': true, 'active': $route.name === 'Home'}">Home</router-link>
       <router-link to="/travail" :class="{'nav-link': true, 'active': $route.name === 'Travail'}">Travail</router-link>
       <router-link to="/flemme" :class="{'nav-link': true, 'active': $route.name === 'Flemme'}">Flemme</router-link>
+      <router-link to="/">Home</router-link>
     </nav>
     <router-view/>
     <div class="current-route">
