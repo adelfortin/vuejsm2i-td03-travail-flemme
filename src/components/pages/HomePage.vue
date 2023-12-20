@@ -2,7 +2,7 @@
   <div class="container">
     <div class="article" v-for="article in articles" :key="article.id">
       <h2>{{ article.title }}</h2>
-      <p>{{ article.body }}</p>
+      <router-link :to="`/article/${article.id}`">Voir plus</router-link>
     </div>
   </div>
 </template>
