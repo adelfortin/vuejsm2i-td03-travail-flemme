@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Flemme Page</h1>
-    <!-- Your content here -->
+    <!-- Votre contenu ici -->
   </div>
 </template>
 

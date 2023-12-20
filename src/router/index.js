@@ -25,7 +25,7 @@ const routes = [
     name: 'ArticleDetails',
     component: ArticleDetailsPage
   }
-  // other routes...
+  // autres routes...
 ];
 
 const router = createRouter({

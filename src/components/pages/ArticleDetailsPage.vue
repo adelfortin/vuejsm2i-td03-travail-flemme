@@ -30,7 +30,8 @@ export default {
       .then(userData => {
         this.author = userData;
       })
-      .catch(error => console.error('Error:', error));
+      .catch(error => console.error('Erreur:', error));
+
   }
 };
 </script>

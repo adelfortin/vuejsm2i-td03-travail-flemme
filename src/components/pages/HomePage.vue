@@ -35,7 +35,7 @@ export default {
 }
 
 .article {
-  flex-basis: 30%; /* Adjust this to control how many boxes per line */
+  flex-basis: 30%; 
   margin: 10px;
   padding: 20px;
   border: 1px solid #ddd;
@@ -56,13 +56,13 @@ export default {
 
 @media (max-width: 768px) {
   .article {
-    flex-basis: 45%; /* Adjust for fewer boxes per line on smaller screens */
+    flex-basis: 45%; 
   }
 }
 
 @media (max-width: 480px) {
   .article {
-    flex-basis: 90%; /* Stack them on very small screens */
+    flex-basis: 90%; 
   }
 }
 </style>
